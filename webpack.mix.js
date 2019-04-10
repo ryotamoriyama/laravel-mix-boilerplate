@@ -20,10 +20,10 @@ const svgDummyModuleName = 'assets/js/.svg-dummy-module'
 // 2. Rename following directories to your theme name
 //   resources/themes/input-theme-name
 //   wp-content/themes/input-theme-name
-const themeName = 'input-theme-name'
+const themeName = 'lig'
 
 const resourcesThemeDirName = `resources/themes/${themeName}`
-const wpContentThemeDirName = `wp-content/themes/${themeName}`
+const wpContentThemeDirName = `wp/wp-content/themes/${themeName}`
 
 // Clean output directory
 fs.removeSync(`${wpContentThemeDirName}/assets`)
